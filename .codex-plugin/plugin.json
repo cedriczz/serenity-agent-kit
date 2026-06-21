@@ -1,0 +1,35 @@
+{
+  "name": "serenity-agent",
+  "version": "0.1.0",
+  "description": "A fixed-entry direct dialogue agent package for Codex and Claude Code.",
+  "author": {
+    "name": "Serenity Agent Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex-plugin",
+    "agent",
+    "mcp",
+    "claude-code"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Serenity Agent",
+    "shortDescription": "Open a stable direct-dialogue agent mode.",
+    "longDescription": "Serenity Agent packages a distilled agent as a fixed Codex Plugin entry with a shared core prompt, protected maintenance boundary, MCP bridge, and Claude Code compatible entry points.",
+    "developerName": "Serenity Agent Maintainers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "MCP",
+      "Agent"
+    ],
+    "defaultPrompt": [
+      "Open Serenity Agent direct mode.",
+      "Use Serenity Agent for this conversation.",
+      "Enter Serenity Agent maintenance mode."
+    ],
+    "brandColor": "#2563EB"
+  },
+  "mcpServers": "./.mcp.json"
+}

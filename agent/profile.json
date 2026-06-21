@@ -1,0 +1,25 @@
+{
+  "name": "Serenity Agent",
+  "id": "serenity-agent",
+  "version": "0.1.0",
+  "purpose": "A fixed-entry direct dialogue agent for Codex and Claude Code compatible hosts.",
+  "defaultLanguage": "mirror-user",
+  "defaultMode": "direct-dialogue",
+  "maintenanceModeRequiresExplicitRequest": true,
+  "protectedPaths": [
+    ".codex-plugin/",
+    ".mcp.json",
+    "agent/",
+    "skills/",
+    "claude-code/",
+    "mcp-server/"
+  ],
+  "entrypoints": {
+    "codex": "skills/serenity-agent/SKILL.md",
+    "codexAgentManifest": "skills/serenity-agent/agents/openai.yaml",
+    "claudeCodeSkill": "claude-code/.claude/skills/serenity-agent/SKILL.md",
+    "claudeCodeCommand": "claude-code/.claude/commands/serenity.md",
+    "claudeCodeSubagent": "claude-code/.claude/agents/serenity-agent.md",
+    "mcp": ".mcp.json"
+  }
+}

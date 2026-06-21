@@ -1,0 +1,18 @@
+{
+  "name": "serenity-agent-kit",
+  "version": "0.1.0",
+  "description": "Codex Plugin and Claude Code compatible package for a fixed-entry direct dialogue agent.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "mcp:smoke": "node scripts/smoke-mcp.mjs",
+    "check": "npm run validate && npm run mcp:smoke"
+  },
+  "workspaces": [
+    "mcp-server"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

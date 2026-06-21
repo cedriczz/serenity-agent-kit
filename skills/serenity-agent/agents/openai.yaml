@@ -1,0 +1,7 @@
+interface:
+  display_name: "Serenity Agent"
+  short_description: "Stable direct-dialogue agent mode"
+  default_prompt: "Open Serenity Agent direct mode and continue as the dedicated agent."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: true

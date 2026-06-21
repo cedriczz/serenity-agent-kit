@@ -1,0 +1,13 @@
+{
+  "name": "serenity-agent-mcp",
+  "version": "0.1.0",
+  "description": "MCP bridge for Serenity Agent profile and startup instructions.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "serenity-agent-mcp": "./src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0"
+  }
+}
