@@ -4,6 +4,15 @@
   "description": "Codex Plugin and Claude Code compatible package for a fixed-entry direct dialogue agent.",
   "type": "module",
   "private": false,
+  "author": {
+    "name": "Serenity Agent Maintainers",
+    "url": "https://github.com/cedriczz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedriczz/serenity-agent-kit.git"
+  },
+  "homepage": "https://github.com/cedriczz/serenity-agent-kit",
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "mcp:smoke": "node scripts/smoke-mcp.mjs",

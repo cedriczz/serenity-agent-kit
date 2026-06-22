@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "A fixed-entry direct dialogue agent package for Codex and Claude Code.",
   "author": {
-    "name": "Serenity Agent Maintainers"
+    "name": "Serenity Agent Maintainers",
+    "url": "https://github.com/cedriczz"
   },
+  "repository": "https://github.com/cedriczz/serenity-agent-kit",
   "license": "MIT",
   "keywords": [
     "codex-plugin",
@@ -18,6 +20,7 @@
     "shortDescription": "Open a stable direct-dialogue agent mode.",
     "longDescription": "Serenity Agent packages a distilled agent as a fixed Codex Plugin entry with a shared core prompt, protected maintenance boundary, MCP bridge, and Claude Code compatible entry points.",
     "developerName": "Serenity Agent Maintainers",
+    "websiteURL": "https://github.com/cedriczz/serenity-agent-kit",
     "category": "Productivity",
     "capabilities": [
       "Interactive",

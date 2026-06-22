@@ -2,6 +2,8 @@
 
 Serenity Agent Kit packages a distilled agent as a fixed, direct-dialogue product surface for Codex and Claude Code compatible hosts.
 
+Created and maintained by [@cedriczz](https://github.com/cedriczz).
+
 It is designed for this workflow:
 
 1. Open Serenity Agent from a plugin, skill, command, or subagent entry.
@@ -79,6 +81,10 @@ npm run check
 Normal direct dialogue must not edit this package. Maintenance mode is allowed only when the user explicitly asks to change this agent, its prompt, plugin, adapters, MCP bridge, docs, or release state.
 
 See `agent/maintenance-protocol.md` for the maintenance workflow.
+
+## Attribution
+
+Original project: [@cedriczz/serenity-agent-kit](https://github.com/cedriczz/serenity-agent-kit).
 
 ## References
 

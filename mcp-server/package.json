@@ -4,6 +4,15 @@
   "description": "MCP bridge for Serenity Agent profile and startup instructions.",
   "type": "module",
   "private": true,
+  "author": {
+    "name": "Serenity Agent Maintainers",
+    "url": "https://github.com/cedriczz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedriczz/serenity-agent-kit.git",
+    "directory": "mcp-server"
+  },
   "bin": {
     "serenity-agent-mcp": "./src/index.js"
   },
